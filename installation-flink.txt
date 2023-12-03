@@ -1,0 +1,19 @@
+-installer jdk 8
+- installer apache flink :
+https://archive.apache.org/dist/flink/flink-1.7.0/
+ 
+choisir flink-1.7.0-bin-scala_2.12.tgz  
+
+pour exécuter un projet Flink 
+
+1èr méthode (En ligne de commande ): 
+
+- dans fichier bin , ouvrir invite de commandes , utiliser la commande : start-cluster.bat
+- ecrire votre code dans IDE , générer un fichier JAR
+- Pour exécuter un fichier JAR dans Apache Flink, vous pouvez utiliser la commande :
+
+flink run /chemin/vers/votre/fichier.jar
+
+2 éme méthode (Via l'IDE) :
+
+Utiliser un IDE tel qu'Eclipse, IntelliJ IDEA ou VS Code avec le plugin Flink pour développer et exécuter localement votre application Flink.
